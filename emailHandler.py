@@ -1,4 +1,4 @@
-import os
+Himport os
 import scrubadub
 import time
 from email.parser import Parser
@@ -94,5 +94,6 @@ for count,filename in enumerate(os.listdir(path)):
 			reply=reply.replace(key,'{{NAME}}')
 		elif difference_table[key]!='{{NAME}}':
 			reply=reply.replace(key,difference_table[key])
+	print reply
 
 print("--- %s seconds ---" % (time.time() - start_time))
