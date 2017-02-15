@@ -3,10 +3,21 @@ Some useful parser for personal data based  on public APIs.
 
 ###Email Parser
 
-Concealing the privacy in email,containing **personal name**, **email name**, **password**, **url** and etc.
-And this part is based on scrubadub, I sincerely appreciate his work. But, there also exist some special cases which its API can not handle.           
+Concealing the privacy in email,containing **personal name**, **email name**, **phone number**, **url** and etc.
+And this part is based on **scrubadub**, I sincerely appreciate his work. But, there also exist some special cases which its API can not handle.           
 
-Example
+**Dependency**
+
+if you have not install **scrubadub** before, you shall pip install it
+
+```
+pip install scrubadub
+```
+
+**Example** 
+
+used the email data from **enron**
+   
    
 Original Email Body
 ```
